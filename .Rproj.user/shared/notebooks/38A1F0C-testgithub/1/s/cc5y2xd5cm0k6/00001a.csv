@@ -1,0 +1,3 @@
+"0","library(ggplot2)"
+"0","plot<-ggplot(cars,aes(x=dist,y=speed))"
+"0","plot+geom_point()+geom_smooth()"

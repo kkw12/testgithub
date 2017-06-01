@@ -25,8 +25,11 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 plot(pressure)
+library(ggplot2)
+plot<-ggplot(cars,aes(x=dist,y=speed))
+plot+geom_point()+geom_smooth()
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = TRUE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
