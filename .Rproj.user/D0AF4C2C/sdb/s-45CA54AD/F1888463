@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"testgithub\"\nauthor: \"koen klein willink en carolien\"\ndate: \"1-6-2017\"\noutput: \n    html_document:\n        keep_md: true\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n## R Markdown\n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.\n\nWhen you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n```{r cars}\nsummary(cars)\n```\n\n## Including Plots\n\nYou can also embed plots, for example:\n\n```{r pressure, echo=TRUE}\nplot(pressure)\nlibrary(ggplot2)\nplot<-ggplot(cars,aes(x=dist,y=speed))\nplot+geom_point()+geom_smooth()\n```\n\nNote that the `echo = TRUE` parameter was added to the code chunk to print of the R code that generated the plot.\n",
+    "created" : 1496347822677.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2620002327",
+    "id" : "F1888463",
+    "lastKnownWriteTime" : 1496347961,
+    "last_content_update" : 1496347961459,
+    "path" : "~/Documents/testgithub/testgithub.Rmd",
+    "project_path" : "testgithub.Rmd",
+    "properties" : {
+        "last_setup_crc32" : "28A5D455bb338d19",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

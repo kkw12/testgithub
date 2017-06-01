@@ -1,6 +1,6 @@
 ---
 title: "testgithub"
-author: "koen klein willink"
+author: "koen klein willink en carolien"
 date: "1-6-2017"
 output: 
     html_document:
