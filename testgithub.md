@@ -48,4 +48,4 @@ plot+geom_point()+geom_smooth()
 
 ![](testgithub_files/figure-html/pressure-2.png)<!-- -->
 
-Note that the `echo = TRUE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = TRUE` parameter was added to the code chunk to print of the R code that generated the plot.

@@ -32,4 +32,4 @@ plot<-ggplot(cars,aes(x=dist,y=speed))
 plot+geom_point()+geom_smooth()
 ```
 
-Note that the `echo = TRUE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = TRUE` parameter was added to the code chunk to print of the R code that generated the plot.
